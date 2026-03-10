@@ -2,7 +2,7 @@
 
 A Go dev tool for inspecting and debugging LLM agent systems directly in your terminal.
 
-When you're building multi-agent pipelines — planner, retriever, executor, whatever — things get hard to follow fast. `agentmeter` gives you a live, structured view of every step: which agent ran, what it said, what tools it called, how long it took, and what it cost. No dashboards, no cloud, no setup. Just your terminal.
+When you're building multi-agent pipelines — planner, retriever, executor, whatever — things get hard to follow fast. `agentmeter` gives you a live, structured view of every step: which agent ran, what it said, what tools it called, how long it took, and what it cost.
 
 It's framework-agnostic. The core has no SDK dependencies. An adapter for [Eino](#eino) is available as a separate module.
 
